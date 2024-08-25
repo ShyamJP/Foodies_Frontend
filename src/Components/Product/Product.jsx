@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'; import './Product.css'
 import Navbar from '../Navbar/NavbarResp';
 import Cardlist from '../../UI/Cardlist/Cardlist';
-import Products from '../../Data';
 
 import { useState } from 'react';
 import Box from '@mui/material/Box';

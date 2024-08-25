@@ -93,6 +93,7 @@ const Cart = () => {
         })
     }
     //For Email   
+    // eslint-disable-next-line no-unused-vars
     const mailHandler = async () => {
         let email = localStorage.getItem('email');
         console.log(amount)

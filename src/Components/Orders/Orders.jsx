@@ -19,7 +19,7 @@ const Orders = ()=>{
 
     useEffect(()=>{
         getOrders();
-    },[])
+    })
     return(
         <>
             <Navbar />

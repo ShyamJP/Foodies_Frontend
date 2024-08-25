@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+// import React, { useState } from "react";
 import "./Card1.css"
-import Button from "../../UI/Button/Button";
 import { useDispatch } from "react-redux" //for assine function on order
-import { addcart , delcart } from "../../Redux/Action/index"
+import { addcart } from "../../Redux/Action/index"
 
 // toast
 import { ToastContainer, toast } from 'react-toastify';
@@ -21,7 +20,7 @@ const Card1 = (props) => {
       });
 
    const dispach = useDispatch();
-   const [item,setItem] = useState([]);
+   // const [item,setItem] = useState([]);
 
 
    const addItems = (d) =>{
