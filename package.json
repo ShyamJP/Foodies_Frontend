@@ -13,6 +13,7 @@
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
+    "food-order-app": "file:",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
     "react": "^18.3.1",
